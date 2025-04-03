@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
     private let submitButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Submit", for: .normal)
+        button.setTitle("Open BM Widget", for: .normal)
         button.backgroundColor = UIColor.systemBlue
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 10
